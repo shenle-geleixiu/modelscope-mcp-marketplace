@@ -1,0 +1,20 @@
+{
+  "name": "shenle-modelscope-mcp",
+  "interface": {
+    "displayName": "ModelScope MCP"
+  },
+  "plugins": [
+    {
+      "name": "modelscope-mcp-hub",
+      "source": {
+        "source": "local",
+        "path": "./plugins/modelscope-mcp-hub"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}
