@@ -1,0 +1,40 @@
+{
+  "name": "modelscope-mcp-hub",
+  "version": "0.1.0",
+  "description": "Search, inspect, and get installation details for MCP servers listed in the ModelScope MCP catalog.",
+  "author": {
+    "name": "shenle-geleixiu",
+    "url": "https://github.com/shenle-geleixiu"
+  },
+  "homepage": "https://modelscope.cn/mcp",
+  "repository": "https://github.com/shenle-geleixiu/modelscope-mcp-marketplace",
+  "license": "MIT",
+  "keywords": [
+    "modelscope",
+    "mcp",
+    "model-context-protocol",
+    "catalog",
+    "mcp-marketplace",
+    "codex-plugin"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "ModelScope MCP Hub",
+    "shortDescription": "Search the live ModelScope MCP catalog",
+    "longDescription": "Search more than 12,000 ModelScope MCP entries, inspect server tools and README content, and retrieve ready-to-use transport and installation configuration without leaving Codex.",
+    "developerName": "shenle-geleixiu",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "websiteURL": "https://modelscope.cn/mcp",
+    "defaultPrompt": [
+      "Find a ModelScope MCP for browser automation",
+      "Show the install configuration for ModelScope Fetch",
+      "List the most popular ModelScope MCP categories"
+    ],
+    "screenshots": [],
+    "brandColor": "#0EA5E9"
+  }
+}
